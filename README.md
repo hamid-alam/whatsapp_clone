@@ -1,6 +1,7 @@
 # whatsapp_clone
 
 A new Flutter project.
+![Screenshot (17)](https://user-images.githubusercontent.com/125123012/235639503-e0e943a9-6e13-4fde-8822-c29de5a50da6.png)
 
 ## Getting Started
 
