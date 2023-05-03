@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
       title: 'Whatsapp Clone',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        floatingActionButtonTheme:
-            const FloatingActionButtonThemeData(backgroundColor: Color(0XFF075E54)),
+        floatingActionButtonTheme: const FloatingActionButtonThemeData(
+            backgroundColor: Color(0XFF075E54)),
         scaffoldBackgroundColor: Colors.white,
         appBarTheme: const AppBarTheme(color: Color(0XFF075E54)),
         bottomSheetTheme:
@@ -46,16 +46,20 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           title: const Text('WhatsApp'),
           centerTitle: false,
-          bottom:
-              const TabBar(indicatorColor: Colors.white, indicatorWeight: 2, tabs: [
-            Tab(icon: Icon(Icons.groups_3)),
-            Tab(text: 'Chats'),
-            Tab(text: 'Status'),
-            Tab(text: 'Calls'),
-          ]),
+          bottom: const TabBar(
+              indicatorColor: Colors.white,
+              indicatorWeight: 2,
+              tabs: [
+                Tab(icon: Icon(Icons.groups_3)),
+                Tab(text: 'Chats'),
+                Tab(text: 'Status'),
+                Tab(text: 'Calls'),
+              ]),
           actions: [
-            IconButton(onPressed: () {}, icon: const Icon(Icons.camera_alt_outlined)),
-            IconButton(onPressed: () {}, icon: const Icon(Icons.search_outlined)),
+            IconButton(
+                onPressed: () {}, icon: const Icon(Icons.camera_alt_outlined)),
+            IconButton(
+                onPressed: () {}, icon: const Icon(Icons.search_outlined)),
             PopupMenuButton(
                 itemBuilder: (context) => [
                       const PopupMenuItem(value: 1, child: Text('New group')),
